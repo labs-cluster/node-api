@@ -1,9 +1,9 @@
 {
-    "family": "hello-world",
+    "family": "node-api",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-            "name": "hello-world",
+            "name": "node-api",
             "cpu": 10,
             "memory": 256,
             "essential": true,
