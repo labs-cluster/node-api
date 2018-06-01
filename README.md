@@ -19,8 +19,9 @@ $ docker logs <container id>
 # Enter the container
 $ docker exec -it <container id> /bin/bash
 
-# Test
-localhost:49160
+# Run Test
+npm install -g mocha
+npm test
 
 # Stop Docker Container
 sudo docker stop $(sudo docker ps -a -q)
